@@ -36,11 +36,7 @@ export const PropertyDetailPage: React.FC = () => {
     agreeTerms: false,
   });
 
-  const formattedPrice = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    maximumFractionDigits: 0,
-  }).format(property.price);
+  const formattedPrice = `₦${property.price.toLocaleString('en-US')}`;
 
   const images = property.images && property.images.length > 0 ? property.images : [
     'https://images.unsplash.com/photo-1613977257363-707ba9348227?auto=format&fit=crop&w=1200&q=80',
@@ -57,19 +53,21 @@ export const PropertyDetailPage: React.FC = () => {
 
   const secondaryImageIndex = (activeImageIndex + 1) % images.length;
 
-  // Dynamic pricing calculations based on property price
-  const price = property.price || 1250000;
-  const transferTax = Math.round(price * 0.02);
-  const legalFees = 3000;
-  const inspectionFee = 500;
-  const insuranceFee = 1200;
-  const propertyTaxAnnual = Math.round(price * 0.012);
-  const propertyTaxMonthly = Math.round(propertyTaxAnnual / 12);
-  const hoaMonthly = 300;
-  const downPayment = Math.round(price * 0.2);
-  const mortgageAmount = Math.round(price * 0.8);
-  const monthlyMortgage = Math.round((mortgageAmount * 0.06) / 12 + 1800);
-  const totalAdditionalFees = transferTax + legalFees + inspectionFee + insuranceFee;
+  // Realistic Nigerian Luxury Real Estate acquisition fees & breakdown
+  const price = property.price || 650000000;
+  const stampDutyTax = Math.round(price * 0.03); // Governor's Consent / Stamp Duty (approx 3%)
+  const legalFee = Math.round(price * 0.05); // Legal conveyancing & Deed drafting (5%)
+  const agencyFee = Math.round(price * 0.05); // Professional Brokerage / Agent commission (5%)
+  const surveyFee = 1500000; // Registered Survey & Title charting
+  const totalAdditionalFees = stampDutyTax + legalFee + agencyFee + surveyFee;
+
+  const serviceChargeAnnual = Math.round(price * 0.005) + 600000; // Annual estate management & security
+  const serviceChargeMonthly = Math.round(serviceChargeAnnual / 12);
+  const dedicatedPowerMonthly = 150000; // 24/7 Power, Water Treatment & Facilities sinking fund
+
+  const initialDeposit = Math.round(price * 0.3); // 30% Initial Equity Deposit
+  const milestoneBalance = Math.round(price * 0.7); // 70% Milestone / Installment balance
+  const installmentPaymentMonthly = Math.round(milestoneBalance / 18); // 18-month flexible structured payment
 
   const handleInquirySubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -430,7 +428,7 @@ export const PropertyDetailPage: React.FC = () => {
       <section className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 border-t border-grey-15">
         <SectionHeader
           title="Comprehensive Pricing Details"
-          subtitle="At Estatein, transparency is key. We provide a clear breakdown of all costs associated with this property, ensuring you have all the information necessary to make an informed financial decision."
+          subtitle="At Verdant Estates, transparency is key. We provide a clear breakdown of all costs associated with this property, ensuring you have all the information necessary to make an informed financial decision."
         />
 
         {/* Disclaimer Note */}
@@ -474,50 +472,50 @@ export const PropertyDetailPage: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Property Transfer Tax</span>
+                  <span className="text-grey-60 block">Governor's Consent & Stamp Duty</span>
                   <span className="text-base font-bold text-white block">
-                    ${transferTax.toLocaleString()}
+                    ₦{stampDutyTax.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Based on sale price & local rate</span>
+                  <span className="text-[11px] text-grey-60">Estimated title perfection & stamp tax (3%)</span>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Legal Fees</span>
+                  <span className="text-grey-60 block">Legal & Conveyancing</span>
                   <span className="text-base font-bold text-white block">
-                    ${legalFees.toLocaleString()}
+                    ₦{legalFee.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Title search & legal representation</span>
+                  <span className="text-[11px] text-grey-60">Deed of Assignment drafting & verification (5%)</span>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Home Inspection</span>
+                  <span className="text-grey-60 block">Agency & Brokerage</span>
                   <span className="text-base font-bold text-white block">
-                    ${inspectionFee.toLocaleString()}
+                    ₦{agencyFee.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Full structural & safety report</span>
+                  <span className="text-[11px] text-grey-60">Professional transaction advisory (5%)</span>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Property Insurance</span>
+                  <span className="text-grey-60 block">Survey & Charting</span>
                   <span className="text-base font-bold text-white block">
-                    ${insuranceFee.toLocaleString()}
+                    ₦{surveyFee.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Estimated annual comprehensive premium</span>
+                  <span className="text-[11px] text-grey-60">Cadastral charting & surveyor verification</span>
                 </div>
               </div>
 
               {activePricingTab === 'fees' && (
                 <p className="text-xs text-grey-60 p-3 bg-grey-08 rounded-xl border border-grey-15 animate-fadeIn">
-                  Total estimated additional closing fees: <strong>${totalAdditionalFees.toLocaleString()}</strong>. These are typically paid once at closing through certified escrow.
+                  Total estimated closing documentation fees: <strong>₦{totalAdditionalFees.toLocaleString()}</strong>. These are payable upon execution of sales agreement.
                 </p>
               )}
             </div>
 
-            {/* Monthly Costs */}
+            {/* Monthly / Service Costs */}
             <div className="bg-grey-10 p-6 sm:p-8 rounded-3xl border border-grey-15 space-y-4">
               <div className="flex items-center justify-between pb-4 border-b border-grey-15">
                 <h4 className="text-base sm:text-lg font-bold text-white">
-                  Monthly Costs
+                  Monthly / Estate Maintenance Costs
                 </h4>
                 <button
                   onClick={() =>
@@ -531,25 +529,25 @@ export const PropertyDetailPage: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Property Taxes</span>
+                  <span className="text-grey-60 block">Estate Facility Charge</span>
                   <span className="text-base font-bold text-white block">
-                    ${propertyTaxMonthly.toLocaleString()}
+                    ₦{serviceChargeMonthly.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Estimated monthly property tax assessment</span>
+                  <span className="text-[11px] text-grey-60">Monthly share of annual estate service levy</span>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">HOA Fee</span>
+                  <span className="text-grey-60 block">24/7 Power & Clean Water Reserve</span>
                   <span className="text-base font-bold text-white block">
-                    ${hoaMonthly.toLocaleString()}
+                    ₦{dedicatedPowerMonthly.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Community maintenance and security</span>
+                  <span className="text-[11px] text-grey-60">Substation, generator fueling & treatment</span>
                 </div>
               </div>
 
               {activePricingTab === 'monthly' && (
                 <p className="text-xs text-grey-60 p-3 bg-grey-08 rounded-xl border border-grey-15 animate-fadeIn">
-                  Monthly recurring non-mortgage carrying cost is approx. <strong>${(propertyTaxMonthly + hoaMonthly).toLocaleString()}/month</strong>.
+                  Estimated monthly recurring estate management is approx. <strong>₦{(serviceChargeMonthly + dedicatedPowerMonthly).toLocaleString()}/month</strong>.
                 </p>
               )}
             </div>
@@ -558,7 +556,7 @@ export const PropertyDetailPage: React.FC = () => {
             <div className="bg-grey-10 p-6 sm:p-8 rounded-3xl border border-grey-15 space-y-4">
               <div className="flex items-center justify-between pb-4 border-b border-grey-15">
                 <h4 className="text-base sm:text-lg font-bold text-white">
-                  Total Initial Investment
+                  Payment Structure & Equity
                 </h4>
                 <button
                   onClick={() =>
@@ -572,28 +570,28 @@ export const PropertyDetailPage: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Down Payment (20%)</span>
+                  <span className="text-grey-60 block">Initial Equity Deposit (30%)</span>
                   <span className="text-base font-bold text-white block">
-                    ${downPayment.toLocaleString()}
+                    ₦{initialDeposit.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">Recommended initial equity</span>
+                  <span className="text-[11px] text-grey-60">Secures allocation and locks listing price</span>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Mortgage Amount (80%)</span>
+                  <span className="text-grey-60 block">Structured Balance (70%)</span>
                   <span className="text-base font-bold text-white block">
-                    ${mortgageAmount.toLocaleString()}
+                    ₦{milestoneBalance.toLocaleString()}
                   </span>
-                  <span className="text-[11px] text-grey-60">30-year fixed loan balance</span>
+                  <span className="text-[11px] text-grey-60">Payable across completion milestones or mortgage</span>
                 </div>
               </div>
             </div>
 
-            {/* Monthly Expenses */}
+            {/* Milestone Payments */}
             <div className="bg-grey-10 p-6 sm:p-8 rounded-3xl border border-grey-15 space-y-4">
               <div className="flex items-center justify-between pb-4 border-b border-grey-15">
                 <h4 className="text-base sm:text-lg font-bold text-white">
-                  Monthly Expenses
+                  Flexible Installment Plan
                 </h4>
                 <button
                   onClick={() =>
@@ -607,19 +605,19 @@ export const PropertyDetailPage: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Mortgage Payment</span>
+                  <span className="text-grey-60 block">18-Month Flexible Plan</span>
                   <span className="text-base font-bold text-white block">
-                    ${monthlyMortgage.toLocaleString()}
+                    ₦{installmentPaymentMonthly.toLocaleString()} / mo
                   </span>
-                  <span className="text-[11px] text-grey-60">Principal + interest payment</span>
+                  <span className="text-[11px] text-grey-60">Equal interest-free monthly schedule</span>
                 </div>
 
                 <div className="p-3.5 rounded-xl bg-grey-08 border border-grey-15 space-y-1">
-                  <span className="text-grey-60 block">Insurance Allocation</span>
+                  <span className="text-grey-60 block">Title Deed Release</span>
                   <span className="text-base font-bold text-white block">
-                    $100
+                    On 100% Payment
                   </span>
-                  <span className="text-[11px] text-grey-60">Monthly escrow reserve</span>
+                  <span className="text-[11px] text-grey-60">Original Governor's Consent / C of O handed over</span>
                 </div>
               </div>
             </div>

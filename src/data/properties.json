@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "prop-ng-01",
+    "title": "5-Bedroom Waterfront Detached Duplex with Private Jetty & Pool",
+    "description": "An exquisite architectural waterfront mansion located in the ultra-exclusive enclave of Banana Island. Features high-volume ceilings, expansive panoramic lagoon vistas, private boat jetty, infinity swimming pool, private elevator, fully fitted Italian chef's kitchen, and dedicated smart home infrastructure.",
+    "price": 4800000000,
+    "address": "Zone A, Banana Island Waterfront",
+    "city": "Ikoyi",
+    "state": "Lagos",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 8500,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Boat Jetty & Deep Water Lagoon Access",
+      "Infinity Swimming Pool & Sunken Firepit Lounge",
+      "Internal Pneumatic Glass Elevator",
+      "2-Room En-suite Staff Quarters (BQ)",
+      "Fully Automated Smart Lighting, Climate & Sound",
+      "Commercial Grade Water Treatment Plant",
+      "24/7 Dedicated Uninterrupted Island Power"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-11-01"
+  },
+  {
+    "id": "prop-ng-02",
+    "title": "Ultra-Modern 5-Bedroom Detached Smart Duplex with Rooftop Terrace",
+    "description": "Contemporary tropical architecture at its finest. This newly completed masterpiece in prime Lekki Phase 1 features wood and glass louvers, floating cantilevered staircases, a private swimming pool, wet and dry kitchens with Miele appliances, and an expansive rooftop sky lounge overlooking the city.",
+    "price": 650000000,
+    "address": "Off Admiralty Way, Lekki Phase 1",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 6200,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Heated Swimming Pool with Waterfall Feature",
+      "Sky Terrace Lounge with Wet Bar",
+      "Double Volume Living Room with Marble Accents",
+      "Fully Fitted Wet and Dry Kitchens",
+      "1-Room En-suite Boys Quarters (BQ)",
+      "Solar Inverter Backup & 40kVA Generator",
+      "Stamped Concrete Compound Parking for 5 Cars"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2025,
+    "createdAt": "2026-10-25"
+  },
+  {
+    "id": "prop-ng-03",
+    "title": "Contemporary 6-Bedroom Ambassadorial Mansion with Lush Courtyard",
+    "description": "Prestigiously set in the diplomatic corridor of Maitama, Abuja. This monumental residence combines imposing granite facades, double-glazed acoustic windows, an internal atrium, private indoor cinema, swimming pool, and an expansive courtyard lined with royal palms.",
+    "price": 2600000000,
+    "address": "Mississippi Street, Maitama Diplomatic Zone",
+    "city": "Maitama",
+    "state": "Abuja (FCT)",
+    "bedrooms": 6,
+    "bathrooms": 7,
+    "areaSqFt": 9800,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Olympic-Sized Lap Pool & Poolside Cabana",
+      "Private 10-Seater Acoustic Home Cinema",
+      "Security Gatehouse with Armored Access Control",
+      "3-Room Standalone Staff Quarters (BQ)",
+      "Industrial Industrial Solar Hybrid Energy Grid",
+      "Executive Study with Bulletproof Glazing",
+      "Gated Parking for up to 10 Vehicles"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-10-18"
+  },
+  {
+    "id": "prop-ng-04",
+    "title": "Palatial 5-Bedroom Hilltop Detached Villa with Panoramic City Views",
+    "description": "Perched on the prime elevated ridges of Guzape, this architectural tour de force offers 270-degree sweeping panoramas over Abuja city. Features an infinity edge pool suspended over the cliffside, floor-to-ceiling glass, private elevator, master suite with boutique dressing room, and smart bioclimatic louvers.",
+    "price": 1200000000,
+    "address": "Hilltop Crescent, Guzape District",
+    "city": "Guzape",
+    "state": "Abuja (FCT)",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 7400,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Cliffside Infinity Edge Swimming Pool",
+      "Private Hydraulic Elevator Across 3 Floors",
+      "2-Room En-suite Domestic Staff Quarters",
+      "Bespoke Italian Cabinetry with Marble Countertops",
+      "High-Yield Solar Inverter with Lithium Banks",
+      "Perimeter Infrared Motion Intrusion Sensors"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2025,
+    "createdAt": "2026-10-12"
+  },
+  {
+    "id": "prop-ng-05",
+    "title": "Brand New 5-Bedroom Contemporary Duplex in Gated Waterfront Estate",
+    "description": "Located within the premium reclaimed waterfront enclave of Periwinkle Estate in Lekki Phase 1. Designed for modern luxury living with imported finishes, smart lighting, swimming pool, boys quarters, and direct water views across the Lekki-Ikoyi Link Bridge.",
+    "price": 820000000,
+    "address": "Periwinkle Lifestyle Estate, Lekki Phase 1",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 6800,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Swimming Pool & Sunbathing Deck",
+      "Full Waterfront Canal Vistas",
+      "1-Room Boys Quarters with Kitchenette",
+      "Fully Integrated Bosch Kitchen Appliances",
+      "Central Water Purification System",
+      "24/7 Monitored Estate Security with Biometric Access"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-10-05"
+  },
+  {
+    "id": "prop-ng-06",
+    "title": "Colonial-Contemporary 5-Bedroom Executive Mansion on 1,200 SQM",
+    "description": "A rare gem situated on a prime corner plot in tranquil Ikeja GRA. Offers grand colonial-inspired exterior architecture blended with ultra-sleek minimalist interiors, sprawling manicured garden lawns, swimming pool, dual-carport, and comprehensive staff quarters.",
+    "price": 1150000000,
+    "address": "Isaac John Street Corridor, Ikeja GRA",
+    "city": "Ikeja",
+    "state": "Lagos",
+    "bedrooms": 5,
+    "bathrooms": 5,
+    "areaSqFt": 8000,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "1,200 SQM Prime Corner Plot with Mature Palms",
+      "Swimming Pool & Outdoor Barbecue Terrace",
+      "2-Room Domestic Staff Quarters (BQ)",
+      "Dedicated 8-Car Parking Forecourt",
+      "Dedicated Transformer and Backup Power Plant",
+      "Governor's Consent with Clean Certificate of Occupancy"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2023,
+    "createdAt": "2026-09-28"
+  },
+  {
+    "id": "prop-ng-07",
+    "title": "Minimalist 5-Bedroom Architectural Masterpiece with Private Cinema",
+    "description": "Nestled in the prestigious diplomatic district of Asokoro, Abuja. This grand villa exhibits clean geometric lines, double-height glazing, an indoor water fountain, home theater, heated outdoor pool, and bulletproof security doors throughout.",
+    "price": 1950000000,
+    "address": "Yakubu Gowon Crescent, Asokoro District",
+    "city": "Asokoro",
+    "state": "Abuja (FCT)",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 7900,
+    "propertyType": "detached-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "8-Seat Private 4K Home Cinema",
+      "Heated Swimming Pool with Underwater Audio",
+      "2-Room Boys Quarters with Independent Gate",
+      "Armored Entrance Doors with Biometric Scanners",
+      "Master Bedroom with Private Terrace & Jacuzzi",
+      "Dual Inverter & High Capacity Generator Systems"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-09-15"
+  },
+  {
+    "id": "prop-ng-08",
+    "title": "4-Bedroom Oceanview Sky Penthouse with Infinity Edge Balcony",
+    "description": "Floating above the Atlantic Ocean in Eko Atlantic City. This breathtaking penthouse is a beacon of world-class urban sophistication with 360-degree ocean and city skyline panoramas, private elevator lobby, wraparound infinity terrace, and 24/7 city infrastructure.",
+    "price": 1650000000,
+    "address": "Oceanfront Drive, Eko Atlantic City",
+    "city": "Victoria Island",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 5400,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Unobstructed Atlantic Ocean & Coastline Views",
+      "Direct Private Keycard Elevator Access",
+      "Infinity Edge Balcony with Outdoor Jacuzzi",
+      "24/7 Independent Eko Atlantic Power & Water",
+      "Rooftop Helipad & Executive Valet Service",
+      "Olympic Swimming Pool & State-of-the-Art Gym",
+      "3 Dedicated Underground Parking Bays"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2025,
+    "createdAt": "2026-10-30"
+  },
+  {
+    "id": "prop-ng-09",
+    "title": "3-Bedroom Luxury Waterfront Serviced Apartment",
+    "description": "Perched on the calm waters of the Five Cowries Creek in Old Ikoyi. A prestigious high-end residence offering generous living spaces, floor-to-ceiling windows, private marina access, Olympic swimming pool, tennis court, and full concierge services.",
+    "price": 580000000,
+    "address": "Alexander Avenue, Old Ikoyi",
+    "city": "Ikoyi",
+    "state": "Lagos",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "areaSqFt": 3200,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Lagoon Waterfront Views from Master Terrace",
+      "Olympic Sized Communal Pool & Tennis Court",
+      "1-Room En-suite Maid's Room (BQ)",
+      "24/7 Full Concierge & Armed Facility Guarding",
+      "Fitted Gaggenau Kitchen Appliances",
+      "High Speed Fiber Optic Internet & Intercom"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2023,
+    "createdAt": "2026-10-14"
+  },
+  {
+    "id": "prop-ng-10",
+    "title": "Contemporary 3-Bedroom High-Rise Apartment with Skyline Views",
+    "description": "Centrally positioned in the commercial heartbeat of Victoria Island. This impeccably finished apartment boasts expansive floor plates, designer lighting, access to a sky fitness club, rooftop lounge, and 24/7 uninterrupted power.",
+    "price": 380000000,
+    "address": "Ahmadu Bello Way, Victoria Island",
+    "city": "Victoria Island",
+    "state": "Lagos",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "areaSqFt": 2800,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Victoria Island City Skyline & Ocean Breeze",
+      "Rooftop Swimming Pool & Sundeck Lounge",
+      "Fully Equipped Commercial Gym",
+      "2-Car Reserved Under-Building Parking",
+      "Automated Fire Sprinklers & Smoke Detectors",
+      "High-Yield Corporate Rental Guarantee"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-10-02"
+  },
+  {
+    "id": "prop-ng-11",
+    "title": "Luxury 4-Bedroom Lakeview Penthouse with Private Jacuzzi Deck",
+    "description": "Overlooking the serene waters of Jabi Lake in Abuja. Featuring double-volume living rooms, private outdoor heated Jacuzzi on the sky terrace, premium Italian marble floors, motorized curtains, and private boat club membership.",
+    "price": 490000000,
+    "address": "Jabi Lake Boulevard, Jabi District",
+    "city": "Jabi",
+    "state": "Abuja (FCT)",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 4100,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Direct Jabi Lakefront Panoramas",
+      "Private Heated Outdoor Terrace Jacuzzi",
+      "Dedicated High-Speed Elevator with Private Foyer",
+      "24/7 Power with Dual Synchronized Diesel Generators",
+      "Residents Clubhouse, Squash Court & Gym",
+      "1-Room Domestic Staff Accommodation"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-09-20"
+  },
+  {
+    "id": "prop-ng-12",
+    "title": "2-Bedroom Luxury Fully-Furnished Turnkey Smart Apartment",
+    "description": "An investor's delight in Lekki Phase 1 with turnkey luxury furnishing and proven short-let income potential. Includes custom Scandinavian furniture, smart access locks, integrated Samsung appliances, swimming pool, and round-the-clock facility management.",
+    "price": 160000000,
+    "address": "Bisola Durosinmi Etti Drive, Lekki Phase 1",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "areaSqFt": 1950,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Turnkey Designer Furnishing Included",
+      "Proven Annual Rental & Shortlet ROI of 18%",
+      "Keyless Digital Door Locks with Remote Mobile Access",
+      "Swimming Pool & Outdoor Social Deck",
+      "24/7 Serviced Power & Water Utilities",
+      "Designated Covered Parking Space"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2025,
+    "createdAt": "2026-09-12"
+  },
+  {
+    "id": "prop-ng-13",
+    "title": "3-Bedroom Executive Serviced Apartment in Gated Development",
+    "description": "Situated in the upscale commercial hub of Wuse 2, Abuja. Designed with contemporary aesthetics, solid hardwood doors, private balcony, children's recreation park, and round-the-clock security surveillance.",
+    "price": 290000000,
+    "address": "Adetokunbo Ademola Crescent, Wuse 2",
+    "city": "Wuse 2",
+    "state": "Abuja (FCT)",
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "areaSqFt": 2600,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Dedicated Commercial Power Substation",
+      "Fully Air-Conditioned with Daikin Inverters",
+      "Gated Perimeter with Manned Guard Patrols",
+      "Communal Gym & Children's Play Yard",
+      "Borehole with Industrial Reverse Osmosis Water",
+      "2 Assigned Car Parking Bays"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2023,
+    "createdAt": "2026-08-30"
+  },
+  {
+    "id": "prop-ng-14",
+    "title": "Ultra-Luxury 4-Bedroom Duplex Penthouse with Private Lift",
+    "description": "One of the most remarkable sky residences in Nigeria. Occupying the top two levels of an ultra-luxury tower in Banana Island. Features double-height living areas, a private rooftop pool, staff quarters, and 360-degree vistas of the Lagos skyline.",
+    "price": 2200000000,
+    "address": "Ocean Parade Towers, Banana Island",
+    "city": "Ikoyi",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 5800,
+    "propertyType": "apartment",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Rooftop Swimming Pool & Sun Deck",
+      "Direct Key-Operated High Speed Lift",
+      "Private Marina Berth & Water Taxi Access",
+      "Floodlit Tennis Court & Squash Facility",
+      "2-Room En-suite Staff Quarters",
+      "Unbroken 24/7 Redundant Power Architecture",
+      "Covered Parking for 4 Executive Vehicles"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-08-18"
+  },
+  {
+    "id": "prop-ng-15",
+    "title": "Contemporary 4-Bedroom Serviced Terrace Duplex with BQ",
+    "description": "Set in a boutique gated estate in Lekki Phase 1, just moments from the Lekki-Ikoyi link bridge. Features contemporary cubic architecture, private parking for 3 cars, shared swimming pool, fully fitted kitchen, and a maid's room.",
+    "price": 260000000,
+    "address": "Freedom Way, Lekki Phase 1",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3600,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Communal Swimming Pool & Resident Gym",
+      "1-Room En-suite Maid's Room (BQ)",
+      "Fully Fitted Kitchen with Smoke Extractor & Oven",
+      "24/7 Serviced Power and Estate Water",
+      "Dedicated 3-Car Parking Space",
+      "CCTV Surveillance & Uniformed Guards"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-10-22"
+  },
+  {
+    "id": "prop-ng-16",
+    "title": "Luxury 4-Bedroom Waterfront Terrace with Private Rooftop Lounge",
+    "description": "Enjoy the gentle breezes of Osborne Foreshore Estate in Ikoyi. A waterfront terrace offering expansive living areas, private rooftop terrace with wet bar, contemporary finishes, and guaranteed security.",
+    "price": 450000000,
+    "address": "Osborne Foreshore Estate Phase 2",
+    "city": "Ikoyi",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 4200,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Rooftop Sky Lounge with Water Views",
+      "1-Room En-suite Boys Quarters",
+      "Premium Italian Kitchen with Quartz Island",
+      "Underground Drainage & Zero Flood Risk",
+      "24-Hour Military-Grade Estate Security Gate",
+      "Federal C of O with Governor's Consent"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2023,
+    "createdAt": "2026-10-10"
+  },
+  {
+    "id": "prop-ng-17",
+    "title": "Brand New 4-Bedroom Smart Terrace House in Gated Community",
+    "description": "Strategically built on the serene slopes of Guzape, Abuja. Features automated ambient lighting, integrated audio, modern aesthetic kitchen, generous family lounge, and all bedrooms en-suite with walk-in showers.",
+    "price": 320000000,
+    "address": "Guzape District Main Gate Enclave",
+    "city": "Guzape",
+    "state": "Abuja (FCT)",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3800,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Fully Automated Smart Home System",
+      "1-Room Boys Quarters (BQ)",
+      "High Volume Central Water Treatment Plant",
+      "Interlocked Compound with 3-Car Parking",
+      "24/7 Security Patrol & CCTV Network",
+      "Spacious Walk-in Closets in Master Bedroom"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2025,
+    "createdAt": "2026-09-22"
+  },
+  {
+    "id": "prop-ng-18",
+    "title": "Modern 4-Bedroom Corner-Piece Terrace Duplex with Extra Garden Space",
+    "description": "A prime corner-piece unit in an upscale residential development off Orchid Road, Lekki. Boasting extra private garden lawn space, 4 spacious en-suite bedrooms, high-end tiling, fitted kitchen, and 24/7 power management.",
+    "price": 175000000,
+    "address": "Orchid Road Corridor, Lekki",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3400,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Corner Green Garden & Terrace",
+      "1-Room Maid's Quarters (BQ)",
+      "Swimming Pool & Children's Play Arena",
+      "24/7 Estate Managed Electricity",
+      "Centralized Treated Water Reticulation",
+      "Governor's Consent Title"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-09-05"
+  },
+  {
+    "id": "prop-ng-19",
+    "title": "Architectural 4-Bedroom Terrace Duplex with Sky Terrace",
+    "description": "Perched in the rapidly growing Katampe Extension luxury corridor in Abuja. Captures spectacular valley views, a double-volume family parlor, private study, 1-room BQ, and an impressive top-floor relaxation terrace.",
+    "price": 240000000,
+    "address": "Katampe Extension, Diplomatic Zone",
+    "city": "Maitama",
+    "state": "Abuja (FCT)",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3500,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Sky Terrace with Picturesque Valley Views",
+      "1-Room En-suite Boys Quarters",
+      "Fitted Designer Kitchen with Gas Hob & Oven",
+      "Centralized Solar Lighting & Backups",
+      "Gated Estate with Asphalt Access Roads",
+      "Federal Capital Territory C of O"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-08-25"
+  },
+  {
+    "id": "prop-ng-20",
+    "title": "Exquisite 5-Bedroom Serviced Terrace Duplex with Swimming Pool",
+    "description": "A rare 5-bedroom luxury terrace in the heart of Victoria Island. Combines executive commercial convenience with residential tranquility. Boasts a shared swimming pool, gymnasium, 24/7 facility power, and 4-car designated parking.",
+    "price": 390000000,
+    "address": "Victoria Island Residential Enclave",
+    "city": "Victoria Island",
+    "state": "Lagos",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 4500,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Communal Swimming Pool & Health Club",
+      "1-Room Domestic Staff Quarters (BQ)",
+      "4-Car Designated Parking Spaces",
+      "24/7 Redundant Power & Central Inverters",
+      "Bulletproof External Doors & Intercom",
+      "Prime Victoria Island Location"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2023,
+    "createdAt": "2026-08-10"
+  },
+  {
+    "id": "prop-ng-21",
+    "title": "Affordable Luxury 4-Bedroom Contemporary Terrace with BQ",
+    "description": "Located in a serene gated estate in Ikate Elegushi, Lekki. Boasting contemporary finishes, stamped concrete compound, fully fitted Italian kitchen with heat extractor, and 24-hour estate security.",
+    "price": 195000000,
+    "address": "Ikate Elegushi, Lekki Corridor",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3300,
+    "propertyType": "terraced-duplex",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Fully Fitted Kitchen with Extractor & Microwave",
+      "1-Room Boys Quarters with Private Entrance",
+      "24-Hour Uniformed Security & Estate Patrols",
+      "Prepaid Power Meter & Dedicated Transformer",
+      "Children's Play Park & Recreational Area",
+      "Clean Title Document & Deed of Assignment"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-07-28"
+  },
+  {
+    "id": "prop-ng-22",
+    "title": "Contemporary 4-Bedroom Semi-Detached Duplex with Private Compound",
+    "description": "Situated in a highly sought-after gated community in Osapa London, Lekki. This semi-detached home offers a spacious private interlocked compound, 4 en-suite bedrooms, high ceiling parlor, fitted kitchen, and boys quarters.",
+    "price": 285000000,
+    "address": "Canal West Estate, Osapa London",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 4000,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Compound Parking for 4 Cars",
+      "1-Room En-suite Maid's Room (BQ)",
+      "Contemporary Kitchen with Center Island",
+      "Automated Gate & Video Doorbell",
+      "Central Water Treatment System",
+      "Governor's Consent with Building Approval"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-10-19"
+  },
+  {
+    "id": "prop-ng-23",
+    "title": "Spacious 4-Bedroom Semi-Detached Duplex with Swimming Pool",
+    "description": "Located inside the prestigious Richmond Gate Estate, Lekki. Enjoy 24/7 uninterrupted power, resident swimming pool, modern fittings, expansive family lounge, master bedroom with walk-in closet, and 1-room BQ.",
+    "price": 350000000,
+    "address": "Richmond Gate Estate, Lekki",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 4300,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Swimming Pool in Backyard",
+      "24/7 Guaranteed Uninterrupted Estate Power",
+      "1-Room Boys Quarters with Bathroom",
+      "Spacious Master Bedroom with Balcony",
+      "Modern Carport & Stamped Concrete Ground",
+      "High Security Controlled Entry with Passcodes"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2023,
+    "createdAt": "2026-10-08"
+  },
+  {
+    "id": "prop-ng-24",
+    "title": "Executive 5-Bedroom Semi-Detached Duplex in Diplomatic Corridor",
+    "description": "Situated in prime Asokoro, Abuja. This grand semi-detached home offers diplomatic standard security, 5 all en-suite bedrooms, high-grade security doors, private study, 4-car parking, and an independent boys quarters.",
+    "price": 750000000,
+    "address": "Near ECOWAS Secretariat, Asokoro District",
+    "city": "Asokoro",
+    "state": "Abuja (FCT)",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 5100,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Perimeter Infrared Sensors & Intercom",
+      "1-Room Standalone Staff Quarters",
+      "Smart Touch Lighting & Automated Gates",
+      "Covered 4-Car Parking Space",
+      "Hybrid Solar Energy Storage System",
+      "Diplomatic Zone FCT Certificate of Occupancy"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-09-18"
+  },
+  {
+    "id": "prop-ng-25",
+    "title": "Chic 4-Bedroom Semi-Detached Smart Duplex with Cinema Room",
+    "description": "An entertainer's dream in Lekki Phase 1. Features a private soundproofed home cinema room, motorized automated gate, integrated Bluetooth surround ceiling speakers, luxury baths, and 1-room BQ.",
+    "price": 420000000,
+    "address": "Lekki Phase 1 Right Hand Side",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 4400,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Soundproofed 6-Seater Cinema",
+      "Bluetooth Surround Sound in Living and Bedrooms",
+      "Motorized Automated Compound Gate",
+      "1-Room Boys Quarters with Ensuite Bath",
+      "Treated Water Storage & Pumping Station",
+      "Clean Title with Building Approvals"
+    ],
+    "agent": {
+      "name": "Sarah Jenkins",
+      "phone": "+234 803 555 0192",
+      "email": "sarah.jenkins@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2025,
+    "createdAt": "2026-08-28"
+  },
+  {
+    "id": "prop-ng-26",
+    "title": "Newly Built 4-Bedroom Semi-Detached Duplex in Gated Estate",
+    "description": "Quietly positioned in Omole Phase 2, right beside Ikeja. Offering generous internal room proportions, walk-in closets, family lounge, fitted kitchen with breakfast counter, 1-room BQ, and a 4-car driveway.",
+    "price": 270000000,
+    "address": "Omole Phase 2 Scheme, Ikeja Environs",
+    "city": "Ikeja",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3900,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Gated Driveway for 4 Vehicles",
+      "1-Room Domestic Staff Quarters",
+      "Custom Fitted Kitchen with Pantry",
+      "Estate Manned Security & CCTV Gates",
+      "Independent Borehole Water Treatment",
+      "Governor's Consent Title"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-08-14"
+  },
+  {
+    "id": "prop-ng-27",
+    "title": "Luxury 5-Bedroom Semi-Detached Contemporary Duplex with Garden",
+    "description": "Perched on the elevated hilltops of Guzape, Abuja. Features an executive family layout with 5 all en-suite bedrooms, private landscaped garden patio, 1-room BQ, Italian kitchen, and 24/7 security guarding.",
+    "price": 580000000,
+    "address": "Guzape Elevated Hilltop Enclave",
+    "city": "Guzape",
+    "state": "Abuja (FCT)",
+    "bedrooms": 5,
+    "bathrooms": 6,
+    "areaSqFt": 4800,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Private Hilltop Garden with Panoramic Views",
+      "1-Room En-suite Domestic Staff Quarters",
+      "Italian Kitchen with Granite Worktops",
+      "24/7 Manned Security Patrol & Rapid Response",
+      "Solar Inverter Backup Energy System",
+      "FCT Minister's C of O"
+    ],
+    "agent": {
+      "name": "David Chen",
+      "phone": "+234 809 555 0377",
+      "email": "david.chen@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-07-20"
+  },
+  {
+    "id": "prop-ng-28",
+    "title": "Smart 4-Bedroom Semi-Detached Duplex with BQ",
+    "description": "Located in a serene family-friendly gated estate in Agungi, Lekki. Highlights include an automated entry gate, clean water supply, 1-room BQ, 4 en-suite bedrooms, high ceilings, and great proximity to Lekki Expressway.",
+    "price": 220000000,
+    "address": "Bera Estate, Agungi Corridor",
+    "city": "Lekki",
+    "state": "Lagos",
+    "bedrooms": 4,
+    "bathrooms": 5,
+    "areaSqFt": 3700,
+    "propertyType": "semi-detached",
+    "status": "for-sale",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "amenities": [
+      "Automated Motorized Compound Gate",
+      "1-Room Boys Quarters (BQ)",
+      "Industrial Borehole & Water Treatment",
+      "Spacious Fitted Kitchen with Heat Extractor",
+      "3-Car Stamped Concrete Compound",
+      "Governor's Consent with Building Approval"
+    ],
+    "agent": {
+      "name": "Marcus Vance",
+      "phone": "+234 802 555 0144",
+      "email": "marcus.vance@verdantestates.com",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&q=80"
+    },
+    "yearBuilt": 2024,
+    "createdAt": "2026-07-05"
+  }
+]

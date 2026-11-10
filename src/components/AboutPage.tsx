@@ -262,11 +262,11 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onExploreProperties }) => 
         </div>
       </section>
 
-      {/* 4. NAVIGATING THE ESTATEIN EXPERIENCE */}
+      {/* 4. NAVIGATING THE VERDANT EXPERIENCE */}
       <section className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-b border-grey-15">
         <SectionHeader
-          title="Navigating the Estatein Experience"
-          subtitle="At Estatein, we've designed a straightforward process to guide you through your real estate journey, from discovering properties to closing the deal."
+          title="Navigating the Verdant Experience"
+          subtitle="At Verdant Estates, we've designed a straightforward process to guide you through your real estate journey, from discovering properties to closing the deal."
         />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -294,11 +294,11 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onExploreProperties }) => 
         </div>
       </section>
 
-      {/* 5. MEET THE ESTATEIN TEAM */}
+      {/* 5. MEET THE VERDANT TEAM */}
       <section className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-b border-grey-15">
         <SectionHeader
-          title="Meet the Estatein Team"
-          subtitle="At Estatein, our success is driven by the dedication and expertise of our team. Meet the passionate individuals working behind the scenes."
+          title="Meet the Verdant Team"
+          subtitle="At Verdant Estates, our success is driven by the dedication and expertise of our team. Meet the passionate individuals working behind the scenes."
         />
 
         {/* 4 Team Cards Grid */}
@@ -358,7 +358,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onExploreProperties }) => 
       <section className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
         <SectionHeader
           title="Our Valued Clients"
-          subtitle="At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've served."
+          subtitle="At Verdant Estates, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've served."
         />
 
         {/* 2 Case Study Cards Grid */}

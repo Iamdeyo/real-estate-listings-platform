@@ -10,11 +10,10 @@ interface FilterBarProps {
 
 const PROPERTY_TYPES = [
   { value: 'all', label: 'All Properties' },
-  { value: 'house', label: 'Houses' },
-  { value: 'apartment', label: 'Apartments' },
-  { value: 'condo', label: 'Condos' },
-  { value: 'townhouse', label: 'Townhouses' },
-  { value: 'villa', label: 'Villas' },
+  { value: 'detached-duplex', label: 'Detached Duplex' },
+  { value: 'apartment', label: 'Luxury Apartment' },
+  { value: 'terraced-duplex', label: 'Terraced Duplex' },
+  { value: 'semi-detached', label: 'Semi-Detached' },
 ];
 
 export const FilterBar: React.FC<FilterBarProps> = ({
@@ -30,7 +29,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       propertyType: 'all',
       status: 'all',
       minPrice: 0,
-      maxPrice: 3000000,
+      maxPrice: 5000000000,
       bedrooms: 'all',
       bathrooms: 'all',
       sortBy: 'recommended',
@@ -42,7 +41,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     filters.propertyType !== 'all' ||
     filters.status !== 'all' ||
     filters.minPrice > 0 ||
-    filters.maxPrice < 3000000 ||
+    filters.maxPrice < 5000000000 ||
     filters.bedrooms !== 'all' ||
     filters.bathrooms !== 'all' ||
     filters.sortBy !== 'recommended';
@@ -196,13 +195,13 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Max Price */}
           <div>
             <label className="block text-xs font-semibold uppercase text-grey-60 mb-2">
-              Max Price: ${filters.maxPrice.toLocaleString()}
+              Max Price: ₦{filters.maxPrice.toLocaleString()}
             </label>
             <input
               type="range"
-              min="50000"
-              max="3000000"
-              step="50000"
+              min="150000000"
+              max="5000000000"
+              step="50000000"
               value={filters.maxPrice}
               onChange={(e) =>
                 setFilters((prev) => ({

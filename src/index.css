@@ -13,15 +13,25 @@
   --color-grey-50: #808080;
   --color-grey-60: #999999;
 
-  /* Purple Shades (Primary Brand Colors) */
-  --color-purple-60: #703bf7;
-  --color-purple-65: #8254f8;
-  --color-purple-70: #946cf9;
-  --color-purple-75: #a685fa;
-  --color-purple-90: #dbcefd;
-  --color-purple-95: #ede7fe;
-  --color-purple-97: #f4f0fe;
-  --color-purple-99: #fbfaff;
+  /* Verdant Estates: Electric Emerald & Mint Brand Shades */
+  --color-brand-60: #00d084;
+  --color-brand-65: #00e599;
+  --color-brand-70: #34d399;
+  --color-brand-75: #6ee7b7;
+  --color-brand-90: #a7f3d0;
+  --color-brand-95: #d1fae5;
+  --color-brand-97: #ecfdf5;
+  --color-brand-99: #f0fdf4;
+
+  /* Purple token aliases mapped directly to Electric Emerald brand values */
+  --color-purple-60: #00d084;
+  --color-purple-65: #00e599;
+  --color-purple-70: #34d399;
+  --color-purple-75: #6ee7b7;
+  --color-purple-90: #a7f3d0;
+  --color-purple-95: #d1fae5;
+  --color-purple-97: #ecfdf5;
+  --color-purple-99: #f0fdf4;
 
   /* White Shades */
   --color-white-90: #e4e4e7;
@@ -30,14 +40,14 @@
   --color-white-99: #fcfcfd;
 
   /* Semantic Brand Aliases */
-  --color-primary: #703bf7;
-  --color-primary-hover: #8254f8;
+  --color-primary: #00d084;
+  --color-primary-hover: #00e599;
   --color-dark-bg: #141414;
   --color-dark-card: #1a1a1a;
   --color-dark-border: #262626;
 }
 
-/* Custom scrollbars matching Estatein dark theme */
+/* Custom scrollbars matching Verdant Estates dark theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -53,5 +63,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #333333;
+  background: #00d084;
 }

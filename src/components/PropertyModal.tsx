@@ -33,11 +33,22 @@ export const PropertyModal: React.FC<PropertyModalProps> = ({
 
   if (!property) return null;
 
-  const formattedPrice = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    maximumFractionDigits: 0,
-  }).format(property.price);
+  const formattedPrice = `₦${property.price.toLocaleString('en-US')}`;
+
+  const formatPropertyType = (type: string) => {
+    switch (type) {
+      case 'detached-duplex':
+        return 'Detached Duplex';
+      case 'terraced-duplex':
+        return 'Terraced Duplex';
+      case 'semi-detached':
+        return 'Semi-Detached';
+      case 'apartment':
+        return 'Luxury Apartment';
+      default:
+        return type.replace('-', ' ');
+    }
+  };
 
   const nextImage = () => {
     setActiveImageIndex((prev) => (prev + 1) % property.images.length);
@@ -64,8 +75,8 @@ export const PropertyModal: React.FC<PropertyModalProps> = ({
             <span className="px-3 py-1 text-xs font-semibold rounded-full uppercase tracking-wider bg-purple-60/20 text-purple-75 border border-purple-60/30">
               {property.status === 'for-sale' ? 'For Sale' : 'For Rent'}
             </span>
-            <span className="text-xs font-semibold text-grey-60 uppercase bg-grey-08 px-3 py-1 rounded-full border border-grey-15">
-              {property.propertyType}
+            <span className="text-xs font-semibold text-grey-60 bg-grey-08 px-3 py-1 rounded-full border border-grey-15">
+              {formatPropertyType(property.propertyType)}
             </span>
           </div>
 
@@ -214,7 +225,7 @@ export const PropertyModal: React.FC<PropertyModalProps> = ({
                 />
                 <div>
                   <h5 className="font-bold text-white">{property.agent.name}</h5>
-                  <p className="text-xs text-grey-60">Estatein Property Specialist</p>
+                  <p className="text-xs text-grey-60">Verdant Estates Property Specialist</p>
                   <p className="text-xs text-purple-75 mt-0.5">{property.agent.email}</p>
                 </div>
               </div>

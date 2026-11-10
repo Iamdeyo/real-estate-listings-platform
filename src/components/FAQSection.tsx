@@ -24,7 +24,7 @@ export const FAQSection: React.FC<FAQSectionProps> = ({ faqs }) => {
     <section className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-t border-grey-15">
       <SectionHeader
         title="Frequently Asked Questions"
-        subtitle="Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
+        subtitle="Find answers to common questions about Verdant Estates' services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
         buttonText="View All FAQs"
       />
 

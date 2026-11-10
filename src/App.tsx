@@ -16,10 +16,10 @@ export function App() {
   const [properties] = useState<Property[]>(mockProperties);
   const [favorites, setFavorites] = useState<string[]>(() => {
     try {
-      const saved = localStorage.getItem('estatein_favorites');
-      return saved ? JSON.parse(saved) : ['prop-1', 'prop-3'];
+      const saved = localStorage.getItem('verdant_favorites') || localStorage.getItem('estatein_favorites');
+      return saved ? JSON.parse(saved) : ['prop-ng-01', 'prop-ng-03'];
     } catch {
-      return ['prop-1', 'prop-3'];
+      return ['prop-ng-01', 'prop-ng-03'];
     }
   });
 
@@ -30,7 +30,7 @@ export function App() {
         ? prev.filter((item) => item !== id)
         : [...prev, id];
       try {
-        localStorage.setItem('estatein_favorites', JSON.stringify(updated));
+        localStorage.setItem('verdant_favorites', JSON.stringify(updated));
       } catch (err) {
         console.error(err);
       }

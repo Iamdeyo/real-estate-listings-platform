@@ -19,8 +19,8 @@ export const ContactPage: React.FC = () => {
     {
       id: 'email',
       icon: Mail,
-      label: 'info@estatein.com',
-      action: () => (window.location.href = 'mailto:info@estatein.com'),
+      label: 'info@verdantestates.com',
+      action: () => (window.location.href = 'mailto:info@verdantestates.com'),
     },
     {
       id: 'phone',
@@ -88,10 +88,10 @@ export const ContactPage: React.FC = () => {
       id: 'headquarters',
       category: 'regional',
       typeLabel: 'Main Headquarters',
-      address: '123 Estatein Plaza, City Center, Metropolis',
+      address: '123 Verdant Plaza, City Center, Metropolis',
       description:
-        'Our headquarters is the central hub of Estatein operations, housing our executive leadership, property valuation experts, and core advisory teams.',
-      email: 'info@estatein.com',
+        'Our headquarters is the central hub of Verdant Estates operations, housing our executive leadership, property valuation experts, and core advisory teams.',
+      email: 'info@verdantestates.com',
       phone: '+1 (123) 456-7890',
       city: 'Metropolis',
     },
@@ -102,7 +102,7 @@ export const ContactPage: React.FC = () => {
       address: '456 Urban Avenue, Downtown District, Metropolis',
       description:
         'Our regional office specializes in local property marketing, client relations, and residential property viewings across the downtown district.',
-      email: 'info.downtown@estatein.com',
+      email: 'info.downtown@verdantestates.com',
       phone: '+1 (123) 654-0987',
       city: 'Metropolis',
     },
@@ -113,7 +113,7 @@ export const ContactPage: React.FC = () => {
       address: '789 Skyline Tower, Financial District, London',
       description:
         'Connecting global investors to prime international and metropolitan properties with dedicated cross-border wealth advisory.',
-      email: 'london@estatein.com',
+      email: 'london@verdantestates.com',
       phone: '+44 20 7946 0912',
       city: 'London, UK',
     },
@@ -166,10 +166,10 @@ export const ContactPage: React.FC = () => {
           {/* Header Title & Subtitle */}
           <div className="max-w-4xl space-y-3 sm:space-y-4 mb-10 sm:mb-14">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-white leading-[1.15]">
-              Get in Touch with Estatein
+              Get in Touch with Verdant Estates
             </h1>
             <p className="text-xs sm:text-sm lg:text-base text-grey-60 leading-relaxed max-w-3xl">
-              Welcome to Estatein&apos;s Contact Us page. We&apos;re here to assist you with your inquiries,
+              Welcome to Verdant Estates&apos; Contact Us page. We&apos;re here to assist you with your inquiries,
               requests, and feedback. Whether you&apos;re looking to buy or sell a property, explore
               investment opportunities, or simply want to connect with our team, we&apos;re just a
               message away. Reach out to us today!
@@ -228,7 +228,7 @@ export const ContactPage: React.FC = () => {
           </h2>
           <p className="text-grey-60 text-xs sm:text-sm lg:text-base mt-2.5 max-w-4xl leading-relaxed">
             We&apos;re excited to connect with you and learn more about your real estate goals. Use
-            the form below to get in touch with Estatein. Whether you have questions about our
+            the form below to get in touch with Verdant Estates. Whether you have questions about our
             services or need assistance, we&apos;re here to help.
           </p>
         </div>
@@ -414,7 +414,7 @@ export const ContactPage: React.FC = () => {
             {formSubmitted && (
               <div className="p-4 rounded-xl bg-purple-60/10 border border-purple-60/30 text-purple-75 text-xs sm:text-sm flex items-center gap-2">
                 <Check className="w-4 h-4 text-purple-60 shrink-0" />
-                <span>Thank you! Your message has been sent successfully. An Estatein agent will contact you shortly.</span>
+                <span>Thank you! Your message has been sent successfully. A Verdant Estates advisor will contact you shortly.</span>
               </div>
             )}
           </form>
@@ -437,7 +437,7 @@ export const ContactPage: React.FC = () => {
               Discover Our Office Locations
             </h2>
             <p className="text-grey-60 text-xs sm:text-sm lg:text-base mt-2.5 max-w-3xl leading-relaxed">
-              Estatein is here to serve you across multiple locations. Whether you&apos;re looking to meet
+              Verdant Estates is here to serve you across multiple locations. Whether you&apos;re looking to meet
               our team in person, discuss a property, or explore partnerships, our offices are
               conveniently located to assist you.
             </p>
@@ -535,7 +535,7 @@ export const ContactPage: React.FC = () => {
         </div>
       </section>
 
-      {/* 4. SECTION: EXPLORE ESTATEIN'S WORLD (PHOTO COLLAGE) */}
+      {/* 4. SECTION: EXPLORE VERDANT ESTATES' WORLD (PHOTO COLLAGE) */}
       <section className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-20 border-b border-grey-15">
         <div className="bg-grey-10 p-6 sm:p-8 lg:p-10 rounded-2xl sm:rounded-3xl border border-grey-15 relative overflow-hidden">
           {/* Subtle textured stripes in background */}
@@ -567,7 +567,7 @@ export const ContactPage: React.FC = () => {
               <div className="aspect-[16/9] sm:aspect-[16/8] lg:aspect-[16/9] rounded-2xl overflow-hidden border border-grey-15 bg-grey-08">
                 <img
                   src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
-                  alt="Estatein modern open office workstations"
+                  alt="Verdant Estates modern open office workstations"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -591,10 +591,10 @@ export const ContactPage: React.FC = () => {
                   <span className="text-grey-40 text-xs">✦</span>
                 </div>
                 <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
-                  Explore Estatein&apos;s World
+                  Explore Verdant Estates&apos; World
                 </h3>
                 <p className="text-xs sm:text-sm text-grey-60 mt-2 leading-relaxed">
-                  Step inside the world of Estatein, where professionalism meets warmth. Our team,
+                  Step inside the world of Verdant Estates, where professionalism meets warmth. Our team,
                   office spaces, and everyday moments reflect our commitment to excellence,
                   integrity, and building lasting relationships with clients like you.
                 </p>
@@ -607,7 +607,7 @@ export const ContactPage: React.FC = () => {
               <div className="aspect-[16/8] rounded-2xl overflow-hidden border border-grey-15 bg-grey-08">
                 <img
                   src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80"
-                  alt="Estatein executive leadership team"
+                  alt="Verdant Estates executive leadership team"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />
@@ -618,7 +618,7 @@ export const ContactPage: React.FC = () => {
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-grey-15 bg-grey-08">
                   <img
                     src="https://images.unsplash.com/photo-1556761175-5973dc0f32e7?auto=format&fit=crop&w=800&q=80"
-                    alt="Estatein advisory team members"
+                    alt="Verdant Estates advisory team members"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -626,7 +626,7 @@ export const ContactPage: React.FC = () => {
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-grey-15 bg-grey-08">
                   <img
                     src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80"
-                    alt="Estatein property management experts"
+                    alt="Verdant Estates property management experts"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                     loading="lazy"
                   />
@@ -637,7 +637,7 @@ export const ContactPage: React.FC = () => {
               <div className="aspect-[16/8] rounded-2xl overflow-hidden border border-grey-15 bg-grey-08">
                 <img
                   src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1000&q=80"
-                  alt="Client partnership handshake with Estatein broker"
+                  alt="Client partnership handshake with Verdant Estates advisor"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   loading="lazy"
                 />

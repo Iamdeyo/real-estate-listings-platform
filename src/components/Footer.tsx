@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Send } from 'lucide-react';
+import { BrandLogo } from './BrandLogo';
 
 const CURRENT_YEAR = new Date().getFullYear();
 
@@ -78,11 +79,7 @@ export const Footer: React.FC = () => {
           {/* Logo & Newsletter Form */}
           <div className="lg:col-span-4 space-y-6">
             <Link to="/" className="inline-block cursor-pointer">
-              <img
-                src="/logo.png"
-                alt="Estatein"
-                className="h-9 w-auto object-contain"
-              />
+              <BrandLogo />
             </Link>
 
             <form onSubmit={handleSubscribe} className="relative max-w-sm">
@@ -103,7 +100,7 @@ export const Footer: React.FC = () => {
             </form>
             {subscribed && (
               <p className="text-xs text-purple-75 animate-fadeIn">
-                ✓ Thank you for subscribing to Estatein newsletters!
+                ✓ Thank you for subscribing to Verdant Estates newsletters!
               </p>
             )}
           </div>
@@ -138,7 +135,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar: Copyright & Socials */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-grey-60">
           <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-center sm:text-left">
-            <span>&copy; {CURRENT_YEAR} Estatein. All Rights Reserved.</span>
+            <span>&copy; {CURRENT_YEAR} Verdant Estates. All Rights Reserved.</span>
             <span className="hover:text-white cursor-pointer">Terms & Conditions</span>
           </div>
 

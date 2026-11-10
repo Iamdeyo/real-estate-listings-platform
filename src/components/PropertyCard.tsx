@@ -18,11 +18,22 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
 }) => {
   const navigate = useNavigate();
 
-  const formattedPrice = new Intl.NumberFormat('en-US', {
-    style: 'currency',
-    currency: 'USD',
-    maximumFractionDigits: 0,
-  }).format(property.price);
+  const formattedPrice = `₦${property.price.toLocaleString('en-US')}`;
+
+  const formatPropertyType = (type: string) => {
+    switch (type) {
+      case 'detached-duplex':
+        return 'Detached Duplex';
+      case 'terraced-duplex':
+        return 'Terraced Duplex';
+      case 'semi-detached':
+        return 'Semi-Detached';
+      case 'apartment':
+        return 'Apartment';
+      default:
+        return type.replace('-', ' ');
+    }
+  };
 
   const handleClick = () => {
     if (onSelect) {
@@ -88,7 +99,7 @@ export const PropertyCard: React.FC<PropertyCardProps> = ({
 
           <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-grey-08 border border-grey-15 text-grey-60">
             <Building className="w-3.5 h-3.5 text-white shrink-0" />
-            <span className="capitalize">{property.propertyType}</span>
+            <span>{formatPropertyType(property.propertyType)}</span>
           </div>
         </div>
       </div>

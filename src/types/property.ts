@@ -1,4 +1,13 @@
-export type PropertyType = 'house' | 'apartment' | 'condo' | 'townhouse' | 'villa' | 'cottage';
+export type PropertyType =
+  | 'detached-duplex'
+  | 'apartment'
+  | 'terraced-duplex'
+  | 'semi-detached'
+  | 'villa'
+  | 'house'
+  | 'condo'
+  | 'townhouse'
+  | 'cottage';
 
 export type ListingStatus = 'for-sale' | 'for-rent' | 'sold' | 'pending';
 

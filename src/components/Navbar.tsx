@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { BrandLogo } from './BrandLogo';
 
 interface NavbarProps {
   favoriteCount: number;
@@ -26,7 +27,7 @@ export const Navbar: React.FC<NavbarProps> = ({ favoriteCount }) => {
         <div className="relative bg-grey-10 py-2.5 px-4 text-center text-xs text-grey-60 border-b border-grey-15 flex items-center justify-center">
           <div className="flex items-center gap-1.5 font-medium">
             <span className="text-amber-300">✨</span>
-            <span className="text-white">Discover Your Dream Property with Estatein</span>
+            <span className="text-white">Discover Your Dream Property with Verdant Estates</span>
             <Link
               to="/properties"
               className="text-white hover:text-purple-60 underline underline-offset-4 ml-1 transition-colors cursor-pointer"
@@ -47,16 +48,12 @@ export const Navbar: React.FC<NavbarProps> = ({ favoriteCount }) => {
       {/* Main Header Container (1596px 2xl / 1280px xl) */}
       <div className="w-full max-w-[1280px] 2xl:max-w-[1596px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
-          {/* Estatein Brand Logo */}
+          {/* Verdant Estates Brand Logo */}
           <Link
             to="/"
             className="flex items-center gap-3 cursor-pointer select-none"
           >
-            <img
-              src="/logo.png"
-              alt="Estatein Logo"
-              className="h-8 sm:h-9 w-auto object-contain"
-            />
+            <BrandLogo />
           </Link>
 
           {/* Desktop Navigation Links */}

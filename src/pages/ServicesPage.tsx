@@ -111,7 +111,7 @@ export const ServicesPage: React.FC = () => {
               Elevate Your Real Estate Experience
             </h1>
             <p className="text-xs sm:text-sm lg:text-base text-grey-60 leading-relaxed max-w-3xl">
-              Welcome to Estatein, where your real estate aspirations meet expert guidance. Explore our
+              Welcome to Verdant Estates, where your real estate aspirations meet expert guidance. Explore our
               comprehensive range of services, each designed to cater to your unique needs and dreams.
             </p>
           </div>
@@ -168,7 +168,7 @@ export const ServicesPage: React.FC = () => {
             Unlock Property Value
           </h2>
           <p className="text-grey-60 text-xs sm:text-sm lg:text-base mt-2.5 max-w-4xl leading-relaxed">
-            Selling your property should be a rewarding experience, not a stressful one. At Estatein,
+            Selling your property should be a rewarding experience, not a stressful one. At Verdant Estates,
             we specialize in maximizing your property&apos;s value through strategic marketing,
             comprehensive market analysis, and seasoned negotiation skills.
           </p>
@@ -468,7 +468,7 @@ export const ServicesPage: React.FC = () => {
               </h2>
               <p className="text-grey-60 text-xs sm:text-sm lg:text-base mt-2.5 leading-relaxed">
                 Building a real estate portfolio requires strategic planning, market insight, and
-                continuous evaluation. At Estatein, we help you make informed investment decisions that
+                continuous evaluation. At Verdant Estates, we help you make informed investment decisions that
                 align with your financial goals.
               </p>
             </div>

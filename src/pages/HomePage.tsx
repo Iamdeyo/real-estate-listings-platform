@@ -23,12 +23,19 @@ export const HomePage: React.FC<HomePageProps> = ({
 }) => {
   const navigate = useNavigate();
   const [featuredPage, setFeaturedPage] = useState(1);
-  const totalFeaturedPages = 60;
 
-  const featuredProperties = useMemo(() => {
-    const featured = mockProperties.filter((p) => p.featured);
-    return featured.length >= 3 ? featured.slice(0, 3) : mockProperties.slice(0, 3);
+  const allFeatured = useMemo(() => {
+    const list = mockProperties.filter((p) => p.featured);
+    return list.length > 0 ? list : mockProperties;
   }, []);
+
+  const FEATURED_PER_PAGE = 3;
+  const totalFeaturedPages = Math.max(1, Math.ceil(allFeatured.length / FEATURED_PER_PAGE));
+
+  const currentFeaturedProperties = useMemo(() => {
+    const start = (featuredPage - 1) * FEATURED_PER_PAGE;
+    return allFeatured.slice(start, start + FEATURED_PER_PAGE);
+  }, [allFeatured, featuredPage]);
 
   const scrollToFeatured = () => {
     const el = document.getElementById('featured-section');
@@ -46,7 +53,7 @@ export const HomePage: React.FC<HomePageProps> = ({
             <div className="space-y-6 sm:space-y-8 max-w-xl">
               <h1 className="text-3.5xl sm:text-5xl lg:text-5xl xl:text-6xl font-bold tracking-tight text-white leading-[1.14]">
                 Discover Your Dream <br />
-                Property with <span className="text-white">Estatein</span>
+                Property with <span className="text-white">Verdant Estates</span>
               </h1>
 
               <p className="text-grey-60 text-sm sm:text-base leading-relaxed">
@@ -88,15 +95,21 @@ export const HomePage: React.FC<HomePageProps> = ({
             </div>
           </div>
 
-          {/* Right Column: 3D Skyscraper Architecture */}
-          <div className="w-full lg:w-1/2 relative flex items-end justify-center overflow-hidden bg-grey-08 h-full min-h-[380px] sm:min-h-[460px] lg:min-h-full">
-            {/* Skyscraper Building Render */}
-            <div className="w-full h-full flex items-end justify-center">
+          {/* Right Column: Luxury Architectural High-Rise */}
+          <div className="w-full lg:w-1/2 relative flex items-end justify-center overflow-hidden bg-grey-08 h-full min-h-[420px] sm:min-h-[500px] lg:min-h-full">
+            {/* Subtle Ambient Emerald Backlight Glow */}
+            <div className="absolute top-1/4 right-0 w-96 h-96 bg-purple-60/10 rounded-full blur-[120px] pointer-events-none" />
+
+            {/* Building Image Container with Cinematic Edge Gradients */}
+            <div className="w-full h-full flex items-end justify-center relative z-10">
               <img
-                src="/estatein-building.jpg"
-                alt="Estatein Skyscraper"
-                className="w-full h-full object-cover object-bottom"
+                src="/hero-building.jpg"
+                alt="Verdant Estates Luxury High-Rise"
+                className="w-full h-full object-cover object-center lg:object-bottom transition-all duration-700"
               />
+              {/* Subtle edge vignette for smooth transition into dark background */}
+              <div className="absolute inset-0 bg-gradient-to-t from-grey-08/70 via-transparent to-grey-08/40 pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-r from-grey-08/40 via-transparent to-transparent pointer-events-none hidden lg:block" />
             </div>
           </div>
 
@@ -153,14 +166,14 @@ export const HomePage: React.FC<HomePageProps> = ({
       >
         <SectionHeader
           title="Featured Properties"
-          subtitle="Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click &quot;View Details&quot; for more information."
+          subtitle="Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Verdant Estates. Click &quot;View Details&quot; for more information."
           buttonText="View All Properties"
           onButtonClick={() => navigate('/properties')}
         />
 
         {/* 3 Property Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {featuredProperties.map((property) => (
+          {currentFeaturedProperties.map((property) => (
             <PropertyCard
               key={property.id}
               property={property}
